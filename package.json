@@ -1,0 +1,24 @@
+{
+  "name": "casino-test",
+  "version": "1.0.0",
+  "description": "Casino challenge digitalHR",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "signup": "cypress run signup",
+    "darkmode": "cypress run darkmode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brandon98MAns/casino-challenge-digitalhr.git"
+  },
+  "author": "Brandon Mansfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon98MAns/casino-challenge-digitalhr/issues"
+  },
+  "homepage": "https://github.com/Brandon98MAns/casino-challenge-digitalhr#readme",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  }
+}
